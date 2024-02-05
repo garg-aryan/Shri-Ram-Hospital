@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospital Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <div class="container">
+        <a href="h3" class="nav_logo">
+          <h3>SHRI RAM HOSPITAL</h3>
+        </a>
+
+        <ul id="nav_items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#specialists">Specialists</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#appointment" class="btn">Make Appointment</a></li>
+        </ul>
+        <button id="open_nav-btn"><i class="fa-solid fa-bars"></i></button>
+        <button id="close_nav-btn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container">
+        <div class="header_content">
+          <h1>Welcome to Shri Ram Hospital!</h1>
+          <p>
+            <strong style="font-size: 1.5rem"
+              >Complete Health Care Solution for Everyone</strong
+            ><br />This Hospital is supervised by the government of India under
+            PM Jan Arogya Yojana
+          </p>
+          <a href="#appointment" class="btn">Make Appointment</a>
+        </div>
+        <div class="header_image">
+          <img src="./assests/header.svg" alt="Header Image" />
+        </div>
+      </div>
+    </header>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <p>
+        We provides a number of Services at an Affordoable price and free
+        Services upto Rs 5Lakh to Ayushman Bharat Card Holders.
+      </p>
+      <div class="container">
+        <article>
+          <i class="fa-solid fa-book-medical"></i>
+          <div>
+            <h4>Online Booking</h4>
+            <small
+              >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos voluptates repellat quas repudiandae. Beatae
+              asperiores neque commodi iste. Dolor eos laborum quasi doloremque
+              tempore, fugit ipsa quibusdam eligendi esse maiores.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="fa-solid fa-trophy"></i>
+          <div>
+            <h4>Qualified Doctors</h4>
+            <small
+              >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos voluptates repellat quas repudiandae. Beatae
+              asperiores neque commodi iste. Dolor eos laborum quasi doloremque
+              tempore, fugit ipsa quibusdam eligendi esse maiores.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="fa-solid fa-headset"></i>
+          <div>
+            <h4>Private Support</h4>
+            <small
+              >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos voluptates repellat quas repudiandae. Beatae
+              asperiores neque commodi iste. Dolor eos laborum quasi doloremque
+              tempore, fugit ipsa quibusdam eligendi esse maiores.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="fa-solid fa-hand-holding-medical"></i>
+          <div>
+            <h4>Well Care</h4>
+            <small
+              >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos voluptates repellat quas repudiandae. Beatae
+              asperiores neque commodi iste. Dolor eos laborum quasi doloremque
+              tempore, fugit ipsa quibusdam eligendi esse maiores.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="fa-solid fa-kit-medical"></i>
+          <div>
+            <h4>Emergency Services</h4>
+            <small
+              >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos voluptates repellat quas repudiandae. Beatae
+              asperiores neque commodi iste. Dolor eos laborum quasi doloremque
+              tempore, fugit ipsa quibusdam eligendi esse maiores.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="fa-brands fa-meta"></i>
+          <div>
+            <h4>Services 24x7</h4>
+            <small
+              >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos voluptates repellat quas repudiandae. Beatae
+              asperiores neque commodi iste. Dolor eos laborum quasi doloremque
+              tempore, fugit ipsa quibusdam eligendi esse maiores.</small
+            >
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="specialists">
+      <h2>Our Top Specialists</h2>
+      <p>
+        These are our Specialists team who have an Experience of more the 10
+        years in their Specialization
+      </p>
+      <div class="container">
+        <article>
+          <div class="specialist_image">
+            <img src="./assests/specialist1.jpg" />
+          </div>
+          <div class="specialist_details">
+            <h4>Dr.Khursheed Anwar</h4>
+            <small>Gastroenterologist Specialist</small>
+          </div>
+          <div class="specialist_socials">
+            <a href="https://linkedin.com" target="_blank"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="https://twitter.com" target="_blank"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="https://facebook.com" target="_blank"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="https://instagram.com" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <a
+            href="https://api.whatsapp.com/send?phone=+919368492686"
+            class="specialist_whatsapp"
+            target="_blank"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+        </article>
+        <article>
+          <div class="specialist_image">
+            <img src="./assests/specialist2.jpg" />
+          </div>
+          <div class="specialist_details">
+            <h4>Dr.Fatima</h4>
+            <small>Gynecologist Specialist</small>
+          </div>
+          <div class="specialist_socials">
+            <a href="https://linkedin.com" target="_blank"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="https://twitter.com" target="_blank"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="https://facebook.com" target="_blank"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="https://instagram.com" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <a
+            href="https://api.whatsapp.com/send?phone=+919368492686"
+            class="specialist_whatsapp"
+            target="_blank"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+        </article>
+        <article>
+          <div class="specialist_image">
+            <img src="./assests/specialist3.jpg" />
+          </div>
+          <div class="specialist_details">
+            <h4>Dr.Kate</h4>
+            <small>Bone Marrow Specialist</small>
+          </div>
+          <div class="specialist_socials">
+            <a href="https://linkedin.com" target="_blank"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="https://twitter.com" target="_blank"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="https://facebook.com" target="_blank"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="https://instagram.com" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <a
+            href="https://api.whatsapp.com/send?phone=+919368492686"
+            class="specialist_whatsapp"
+            target="_blank"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+        </article>
+        <article>
+          <div class="specialist_image">
+            <img src="./assests/specialist4.jpg" />
+          </div>
+          <div class="specialist_details">
+            <h4>Dr.Stuti Rajput Nakra</h4>
+            <small>Dermateologist Specialist</small>
+          </div>
+          <div class="specialist_socials">
+            <a href="https://linkedin.com" target="_blank"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="https://twitter.com" target="_blank"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="https://facebook.com" target="_blank"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="https://instagram.com" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <a
+            href="https://api.whatsapp.com/send?phone=+919368492686"
+            class="specialist_whatsapp"
+            target="_blank"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+        </article>
+      </div>
+    </section>
+
+    <section id="testimonials" class="swiper mySwiper">
+      <h2>What our Patients Say</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut architecto
+        dolore beatae est hic pariatur!
+      </p>
+
+      <div class="swiper-wrapper">
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repudiandae, aspernatur quidem quisquam, tenetur illo, ipsum debitis
+            voluptate obcaecati ipsam incidunt quam sunt quis reiciendis eaque
+            praesentium qui. Harum, vitae ad.
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./assests/avatar1.jpg" alt="" />
+            </div>
+            <div class="patient_details">
+              <h5>Joey</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repudiandae, aspernatur quidem quisquam, tenetur illo, ipsum debitis
+            voluptate obcaecati ipsam incidunt quam sunt quis reiciendis eaque
+            praesentium qui. Harum, vitae ad.
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./assests/avatar2.jpg" alt="" />
+            </div>
+            <div class="patient_details">
+              <h5>Rancho</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repudiandae, aspernatur quidem quisquam, tenetur illo, ipsum debitis
+            voluptate obcaecati ipsam incidunt quam sunt quis reiciendis eaque
+            praesentium qui. Harum, vitae ad.
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./assests/avatar3.jpg" alt="" />
+            </div>
+            <div class="patient_details">
+              <h5>Aryan</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repudiandae, aspernatur quidem quisquam, tenetur illo, ipsum debitis
+            voluptate obcaecati ipsam incidunt quam sunt quis reiciendis eaque
+            praesentium qui. Harum, vitae ad.
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./assests/avatar4.jpg" alt="" />
+            </div>
+            <div class="patient_details">
+              <h5>Jacky</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repudiandae, aspernatur quidem quisquam, tenetur illo, ipsum debitis
+            voluptate obcaecati ipsam incidunt quam sunt quis reiciendis eaque
+            praesentium qui. Harum, vitae ad.
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./assests/avatar5.jpg" alt="" />
+            </div>
+            <div class="patient_details">
+              <h5>Ridhi</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repudiandae, aspernatur quidem quisquam, tenetur illo, ipsum debitis
+            voluptate obcaecati ipsam incidunt quam sunt quis reiciendis eaque
+            praesentium qui. Harum, vitae ad.
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./assests/avatar6.jpg" alt="" />
+            </div>
+            <div class="patient_details">
+              <h5>Piya</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repudiandae, aspernatur quidem quisquam, tenetur illo, ipsum debitis
+            voluptate obcaecati ipsam incidunt quam sunt quis reiciendis eaque
+            praesentium qui. Harum, vitae ad.
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./assests/avatar7.jpg" alt="" />
+            </div>
+            <div class="patient_details">
+              <h5>Mary Kim</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <section id="appointment">
+      <div class="container">
+        <div class="info">
+          <h2>Get An Appointment</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Repudiandae odio iure porro! Architecto, dolorum.
+          </p>
+          <article>
+            <div class="info_icon">
+              <i class="fa-regular fa-user"></i>
+            </div>
+            <div>
+              <h4>Experience Doctors</h4>
+              <small
+                >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Ducimus ratione repudiandae inventore animi sint velit aliquid
+                eaque debitis quasi.</small
+              >
+            </div>
+          </article>
+          <article>
+            <div class="info_icon">
+              <i class="fa-solid fa-dna"></i>
+            </div>
+            <div>
+              <h4>Advance Technology</h4>
+              <small
+                >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Ducimus ratione repudiandae inventore animi sint velit aliquid
+                eaque debitis quasi.</small
+              >
+            </div>
+          </article>
+          <article>
+            <div class="info_icon">
+              <i class="fa-solid fa-tower-broadcast"></i>
+            </div>
+            <div>
+              <h4>Emergency Care</h4>
+              <small
+                >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Ducimus ratione repudiandae inventore animi sint velit aliquid
+                eaque debitis quasi.</small
+              >
+            </div>
+          </article>
+        </div>
+        <form action="https://formspree.io/f/mkndjzqy" method="POST">
+          <div class="form_group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="Patient's Name"
+              id="name"
+              placeholder="Enter you name"
+              required
+            />
+          </div>
+          <div class="form_group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="number"
+              name="Phone Number"
+              id="phone"
+              placeholder="Enter Phone Number"
+              required
+            />
+          </div>
+          <div class="form_group">
+            <label for="date">Date</label>
+            <input
+              type="date"
+              name="Date"
+              id="date"
+              placeholder="Choose a date"
+              required
+            />
+          </div>
+          <div class="form_group">
+            <label for="department">Select Department</label>
+            <select name="Department" id="department" required>
+              <option value="Department One">Department One</option>
+              <option value="Department Two">Department Two</option>
+              <option value="Department Three">Department Three</option>
+              <option value="Department Four">Department Four</option>
+            </select>
+          </div>
+          <div class="form_group">
+            <label for="doctor">Select Doctor</label>
+            <select name="Doctor" id="doctor" required>
+              <option value="Doctor One">Doctor One</option>
+              <option value="Doctor Two">Doctor Two</option>
+              <option value="Doctor Three">Doctor Three</option>
+              <option value="Doctor Four">Doctor Four</option>
+              <option value="Doctor Five">Doctor Five</option>
+            </select>
+          </div>
+          <div class="form_group">
+            <label for="message">Additional Message</label>
+            <textarea
+              name="Added Message"
+              id="message"
+              rows="6"
+              placeholder="Add a Message"
+              required
+            ></textarea>
+          </div>
+          <input type="submit" value="Submit Request" class="btn-primary" />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <article>
+          <a href="#" class="footer_logo"><h3>Shri Ram Hospital</h3></a>
+          <p>
+            Surya Gadhi path near Hanuman Gadh, opposite to Maharishi Valmiki
+            International Airport, Ayodhya - Bharat
+          </p>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <small>+91 9957182630</small>
+          </div>
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <small>support@shriramhospital.gov.in</small>
+          </div>
+        </article>
+
+        <article>
+          <h3>Support</h3>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookie Policy</a>
+          <a href="#">Purchasing Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Career</a>
+        </article>
+
+        <article>
+          <h3>Permalinks</h3>
+          <a href="#">Home</a>
+          <a href="#services">Services</a>
+          <a href="#specialists">Specialists</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#appointment" class="btn-primary">Get Appointment</a>
+        </article>
+
+        <article>
+          <h3>Contact Us</h3>
+          <p>Press</p>
+          <p>FAQs</p>
+          <div class="footer_socials">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </article>
+      </div>
+      <div>
+        <div class="copyright">
+          <small>© Copyright SHRI RAM HOSPITAL. All Rights Reserved</small>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
